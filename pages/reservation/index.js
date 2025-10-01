@@ -1,12 +1,12 @@
 import PageHeader from "@/components/modules/PageHeader/PageHeader";
-import Booking from "@/components/templates/Reserve/Booking";
+import Reservation from "@/components/templates/Home/Reservation";
 import React from "react";
 
 function Reserve() {
   return (
     <div>
       <PageHeader route="Reservation" />
-      <Booking />
+      <Reservation />
     </div>
   );
 }

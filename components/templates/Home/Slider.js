@@ -21,9 +21,9 @@ function Slider() {
         <SwiperSlide className="flex items-center justify-center h-full  text-lg ">
           <div className="bg-[url('/img/carousel-1.jpg')] bg-center bg-cover brightness-75 bg-[#805c5b] bg-blend-multiply  h-full">
             <div className=" text-white flex justify-center items-center flex-col gap-y-2 h-full">
-              <p className="text-2xl text-[#cf8423]">we have been serving</p>
-              <h1 className="text-8xl">COFFEE</h1>
-              <p>* SINCE 1950 *</p>
+              <p className="sm:text-2xl text-xl text-[#cf8423]">we have been serving</p>
+              <h1 className="sm:text-8xl text-6xl">COFFEE</h1>
+              <p className="max-sm:text-[15px]">* SINCE 1950 *</p>
             </div>
           </div>
         </SwiperSlide>
@@ -31,9 +31,9 @@ function Slider() {
           <div className="bg-[url('/img/carousel-2.jpg')]  brightness-75 bg-cover bg-[#b38b89] bg-blend-multiply  h-full">
       
             <div className=" text-white flex justify-center items-center flex-col gap-y-2 h-full">
-              <p className="text-2xl text-[#cf8423]">we have been serving</p>
-              <h1 className="text-8xl">COFFEE</h1>
-              <p>* SINCE 1950 *</p>
+              <p className="sm:text-2xl text-xl text-[#cf8423]">we have been serving</p>
+              <h1 className="sm:text-8xl text-6xl">COFFEE</h1>
+              <p className="max-sm:text-[15px]">* SINCE 1950 *</p>
             </div>
           </div>
         </SwiperSlide>

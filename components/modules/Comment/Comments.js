@@ -12,7 +12,7 @@ function Comments({ item}) {
         </div>
       </div>
       <div>
-        <p>{item.desc}</p>
+        <p className="max-sm:text-[13px]">{item.desc}</p>
       </div>
     </div>
   );

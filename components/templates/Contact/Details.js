@@ -10,9 +10,9 @@ function Details() {
       <div className="flex flex-col items-center gap-y-2 ">
         <div className="w-1 bg-amber-800 h-20"></div>
         <p className="text-amber-700 text-lg">Contact Us</p>
-        <h1 className="text-4xl font-bold">Feel Free To Contact</h1>
+        <h1 className="md:text-4xl text-2xl font-bold">Feel Free To Contact</h1>
       </div>
-      <div className="mt-20 px-28 flex justify-around">
+      <div className="mt-20 min-[1100px]:px-28  sm:max-[1100px]:px-10 px-5 flex max-md:flex-col gap-y-10 justify-around">
         <div className="flex flex-col items-center ">
           <FaMapMarkerAlt className="text-2xl text-amber-800" />
           <p className="font-bold text-[17px]">Address</p>

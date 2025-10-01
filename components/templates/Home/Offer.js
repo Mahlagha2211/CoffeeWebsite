@@ -18,9 +18,9 @@ function Offer() {
   };
   return (
     <div className="text-white flex justify-center items-center gap-y-2 flex-col h-96 bg-[url('/img/bg.jpg')] bg-cover bg-center bg-[#251203] bg-blend-multiply">
-      <p className="text-4xl text-amber-700 font-bold">50% OFF</p>
-      <p className="text-2xl font-bold">Sunday special Offer</p>
-      <p>Only for sunday from 1st Jan to 30th jan 2045 </p>
+      <p className="sm:text-4xl text-2xl text-amber-700 font-bold">50% OFF</p>
+      <p className="sm:text-2xl text-lg font-bold">Sunday special Offer</p>
+      <p className="max-sm:text-[12px]">Only for sunday from 1st Jan to 30th jan 2045 </p>
       <form className="my-3" onSubmit={(e) => postEmail(e)}>
         <input
           placeholder="Your Email"

@@ -31,13 +31,14 @@ function Booking() {
 
   return (
     <div className="grid p-10 grid-cols-12 gap-10 mx-28 my-10 bg-[url('/img/bg.jpg')] bg-center bg-cover bg-blend-multiply bg-[#251203] ">
-      <div className="col-span-6 flex flex-col justify-center gap-y-5 ">
-        <p className="text-4xl text-amber-700 font-bold">30% OFF</p>
-        <p className="text-2xl text-white font-bold">For Online Reservation</p>
-        <p className="text-white">
+      <div className="sm:col-span-6 col-span-12 flex flex-col justify-center gap-y-5 text-center sm:text-left">
+        <p className="text-amber-700 font-bold text-2xl md:text-4xl">30% OFF</p>
+        <p className="text-white font-bold text-lg md:text-2xl">
+          For Online Reservation
+        </p>
+        <p className="text-white text-[12px] md:text-base">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas
-          purus viverra accumsan in nisl nisi.
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
       </div>
       <div className="col-span-6 flex flex-col items-center gap-10">

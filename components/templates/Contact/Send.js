@@ -27,7 +27,7 @@ function Send() {
     }
   };
   return (
-    <div className="px-28 py-10">
+    <div className="min-[1100px]:px-28  sm:max-[1100px]:px-10 px-5 py-10">
       <form className="flex flex-col gap-y-4" onSubmit={(e) => send(e)}>
         <input type="text" placeholder="Your Name" className="border p-1 " value={name} onChange={(e) => setName(e.target.value)} />
         <input type="text" placeholder="Your Email" className="border p-1"  value={email} onChange={(e) => setEmail(e.target.value)}/>
