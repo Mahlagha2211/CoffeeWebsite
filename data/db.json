@@ -1,0 +1,154 @@
+{
+  "services": [
+    {
+      "id": "1",
+      "img": "/img/service-1.jpg",
+      "title": "Fastest Door Delivery",
+      "icon": "Truck"
+    },
+    {
+      "id": "2",
+      "img": "/img/service-2.jpg",
+      "title": "Fresh Coffee Beans",
+      "icon": "Coffee"
+    },
+    {
+      "id": "3",
+      "img": "/img/service-3.jpg",
+      "title": "Best Quality Coffee",
+      "icon": "Award"
+    },
+    {
+      "id": "4",
+      "img": "/img/service-4.jpg",
+      "title": "Online Table Booking",
+      "icon": "Table"
+    }
+  ],
+  "menu": [
+    {
+      "id": "1",
+      "img": "/img/menu-1.jpg",
+      "title": "Black Coffee",
+      "price": 5,
+      "type": "cold",
+      "desc": "sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
+      "score": 5
+    },
+    {
+      "id": "2",
+      "img": "/img/menu-2.jpg",
+      "title": "Hot Chocolete",
+      "type": "hot",
+      "price": 7,
+      "desc": "sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
+      "score": 4.2
+    },
+    {
+      "id": "3",
+      "img": "/img/menu-3.jpg",
+      "title": "Ice Cream",
+      "type": "cold",
+      "price": 9,
+      "desc": "sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
+      "score": 3.1
+    },
+    {
+      "id": "4",
+      "img": "/img/menu-1.jpg",
+      "title": "Tea",
+      "type": "hot",
+      "price": 9,
+      "desc": "sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
+      "score": 4.8
+    },
+    {
+      "id": "5",
+      "img": "/img/menu-2.jpg",
+      "title": "Chocolete Milk",
+      "type": "hot",
+      "price": 9,
+      "desc": "sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
+      "score": 2.5
+    },
+    {
+      "id": "6",
+      "img": "/img/menu-3.jpg",
+      "title": "Banana Milk",
+      "type": "cold",
+      "price": 9,
+      "desc": "sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
+      "score": 1
+    }
+  ],
+  "newsLetter": [
+    {
+      "id": "1",
+      "email": "mahlagha.2211@gmail.com"
+    },
+    {
+      "id": "2",
+      "email": "mehrana.tavakoli11@gmail.com"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "img": "/img/testimonial-1.jpg",
+      "name": "Mahlagha Tavakoli",
+      "desc": "sed ea amet kasd elitr stet,stet rebum et ipsum est duo elitr eirmod clita lorem.dolor tempor impum sanct clita",
+      "productId": 1,
+      "score": 4.5
+    },
+    {
+      "id": "2",
+      "img": "/img/testimonial-2.jpg",
+      "name": "Alireza hadipur",
+      "desc": "sed ea amet kasd elitr stet,stet rebum et ipsum est duo elitr eirmod clita lorem.dolor tempor impum sanct clita",
+      "productId": 2,
+      "score": 3.5
+    },
+    {
+      "id": "3",
+      "img": "/img/testimonial-3.jpg",
+      "name": "Mehrana Tavakoli",
+      "desc": "sed ea amet kasd elitr stet,stet rebum et ipsum est duo elitr eirmod clita lorem.dolor tempor impum sanct clita",
+      "productId": 1,
+      "score": 4.2
+    },
+    {
+      "id": "4",
+      "img": "/img/testimonial-4.jpg",
+      "name": "Mahan Tavakoli",
+      "desc": "sed ea amet kasd elitr stet,stet rebum et ipsum est duo elitr eirmod clita lorem.dolor tempor impum sanct clita",
+      "productId": 1,
+      "score": 4.8
+    }
+  ],
+  "book": [
+    {
+      "id": "1",
+      "name": "mahlagha",
+      "email": "mahlagha.2211@gmail.com",
+      "date": "1404/09/16",
+      "time": 17,
+      "number": 2
+    }
+  ],
+  "contact": [
+    {
+      "id": "1",
+      "name": "mahlagha",
+      "email": "mahlagha.2211@gmail.com",
+      "subject": "please",
+      "message": "please"
+    },
+    {
+      "id": "37b6",
+      "name": "alireza",
+      "email": "alireza@gmail.com",
+      "subject": "react course",
+      "message": "kbh yygki"
+    }
+  ]
+}
