@@ -17,7 +17,7 @@ function CommentsId({ data }) {
         <div className="w-1 bg-amber-800 h-20"></div>
         <p className="text-amber-700 text-lg">Testimonial</p>
       </div>
-      <div className="px-28 pb-20">
+      <div className="min-[1100px]:px-28  sm:max-[1100px]:px-10 px-5 pb-20">
         {data.length > 0 ? (
           <Swiper
             loop={true}

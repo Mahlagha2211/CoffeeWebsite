@@ -4,9 +4,9 @@ import { FaStar } from "react-icons/fa";
 
 function IdDetails({ data }) {
   return (
-    <div className="flex gap-x-4 ">
-      <img src={data.img} className="rounded-lg"></img>
-      <div className="flex flex-col justify-between">
+    <div className="flex max-[850px]:flex-col max-[850px]:items-center gap-x-4 min-[1100px]:px-28  sm:max-[1100px]:px-10 px-5">
+      <img src={data.img} className="rounded-lg max-[850px]:w-30"></img>
+      <div className="flex flex-col justify-between gap-y-3">
         <p className="border-b text-[17px] font bold text-white">
           {data.title}
         </p>
